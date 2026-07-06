@@ -1,6 +1,10 @@
 Project 1: Rule-Based AI Chatbot 🤖
 DecodeLabs — Industrial Training Kit | Batch 2026
 
+## 🏢 Internship Information
+
+This project was completed as part of the **Decode Labs Artificial Intelligence Internship (Batch 2026)**.
+
 ## 📖Overview
 
 This project is the fundation of AI enginner training , its a simple Rule-based AI chabot built with python.
