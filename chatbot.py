@@ -16,8 +16,8 @@ print ("MyBot : Hello! I'm a rule bases chatbot. Type 'bye' to exit")
 while True :
     user_input_text = input("You :")
     clean_input = user_input_text.lower().strip()
-    if user_input_text in exitlines :
+    if clean_input in exitlines :
         print ("MyBot : Goodbye!")
         break
-    reply = answers.get(user_input_text , "i dont understand your question , type 'help'.")
+    reply = answers.get(clean_input , "i dont understand your question , type 'help'.")
     print("MyBot :" , reply)
